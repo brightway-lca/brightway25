@@ -16,6 +16,15 @@ import bw_processing as bp
 
 ```
 
+# Upgrading
+
+Brightway 2.5 can be use in parallel with Brightway 2, but each project must be either version 2 or 2.5. Brightway 2.5 projects have a different processed data format, and no longer use the `mapping` object.
+
+To upgrade an existing project to version 2.5, use the function `bw2data.projects.migrate_project_25()`.
+
+To maintain a clean separation between these two sets of projects, you can use some type of naming convention, or use an [environment variable](https://2.docs.brightway.dev/faq.html?#how-do-i-find-where-my-data-is-saved) for a new data directory.
+
+
 Official site:
 
 * https://brightway.dev
