@@ -6,8 +6,8 @@ packages = [
     "bw2data>=4.0.dev11",
     "bw2io>=0.9.dev6",
     "bw2parameters>=0.6.6",
-    "bw_processing>=0.7",
-    "matrix_utils>=0.2",
+    "bw_processing>=0.7.1",
+    "matrix_utils>=0.2.1",
     "mrio_common_metadata>=0.2",
     "bw_migrations>=0.2",
     "numpy>=1.20",
@@ -17,7 +17,7 @@ packages = [
 
 setup(
     name='brightway25',
-    version="1.0.3",
+    version="1.0.4",
     packages=["brightway25"],
     author="Chris Mutel",
     author_email="cmutel@gmail.com",
