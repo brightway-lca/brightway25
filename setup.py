@@ -2,7 +2,7 @@ from setuptools import setup
 
 packages = [
     "bw2analyzer>=0.11.1",
-    "bw2calc>=2.0.dev4",
+    "bw2calc>=2.0.dev5",
     "bw2data>=4.0.dev11",
     "bw2io>=0.9.dev6",
     "bw2parameters>=0.6.6",
@@ -17,7 +17,7 @@ packages = [
 
 setup(
     name='brightway25',
-    version="1.0.5",
+    version="1.0.6",
     packages=["brightway25"],
     author="Chris Mutel",
     author_email="cmutel@gmail.com",
