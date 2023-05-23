@@ -15,7 +15,15 @@ import matrix_utils as mu
 import bw_processing as bp
 
 ```
+# Installing
 
+The package is currently hosted in the [cmutel channel of anaconda.org](https://anaconda.org/cmutel/brightway25). **This might change in the future for the conda-forge channel** 
+
+You can install brightway25 with:
+
+```
+conda create -n bw25 -c conda-forge -c defaults -c cmutel brightway25
+```
 # Upgrading
 
 Brightway 2.5 can be use in parallel with Brightway 2, but each project must be either version 2 or 2.5. Brightway 2.5 projects have a different processed data format, and no longer use the `mapping` object.
