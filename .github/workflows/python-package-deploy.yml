@@ -13,6 +13,8 @@ jobs:
     permissions:
       id-token: write
     steps:
+    - run: echo "Triggered workflow with github ref $GITHUB_REF"
+    - run: echo "Found tag: ${{ startsWith(github.ref, 'refs/tags') }}"
     - uses: actions/checkout@v4
     - name: Set up Python 3.11
       uses: actions/setup-python@v5
@@ -30,8 +32,6 @@ jobs:
         build
         --outdir dist/
         .
-    - name: Check Github Ref
-      run: echo ${{ github.ref_name }}
     - name: Publish distribution 📦 to PyPI
       if: startsWith(github.ref, 'refs/tags')
       uses: pypa/gh-action-pypi-publish@release/v1
