@@ -1,0 +1,25 @@
+{
+  "template": "https://github.com/brightway-lca/cookiecutter-brightwaylib",
+  "commit": "3800223c2e3382571af880837c632373fa83d5a7",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "full_name": "Chris Mutel",
+      "email": "cmutel@gmail.com",
+      "github_username": "brightway-lca",
+      "project_name": "brightway25",
+      "package_name": "brightway25",
+      "project_short_description": "A wrapper library for documentation and easy installation of Brightway 2.5",
+      "version": "1.1",
+      "use_pytest": "y",
+      "open_source_license": "BSD-3-Clause",
+      "copyright_year": "2025",
+      "code_of_conduct_contact": "cmutel@gmail.com",
+      "_copy_without_render": [
+        ".github/*"
+      ],
+      "_template": "https://github.com/brightway-lca/cookiecutter-brightwaylib"
+    }
+  },
+  "directory": null
+}
