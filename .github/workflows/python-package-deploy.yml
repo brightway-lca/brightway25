@@ -6,7 +6,6 @@ name: Publish Python 🐍 distributions 📦 to PyPI and TestPyPI
 on:
   push:
     branches: [main, develop]
-    tags: '*'
 jobs:
   build-n-publish:
     name: Build and publish Python 🐍 distributions 📦 to PyPI and TestPyPI
@@ -31,6 +30,8 @@ jobs:
         build
         --outdir dist/
         .
+    - name: Check Github Ref
+      run: echo ${{ github.ref_name }}
     - name: Publish distribution 📦 to PyPI
       if: startsWith(github.ref, 'refs/tags')
       uses: pypa/gh-action-pypi-publish@release/v1
