@@ -16,6 +16,8 @@ jobs:
       run:
         shell: bash -el {0}
     steps:
+      - run: echo "Triggered workflow with github ref $GITHUB_REF"
+      - run: echo "Found tag: ${{ startsWith(github.ref, 'refs/tags') }}"
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
