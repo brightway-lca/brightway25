@@ -42,7 +42,7 @@ dependencies = [
     "matrix_utils>=0.6",
     "mrio_common_metadata>=0.2.1",
     "multifunctional>=1.0",
-    "numpy<2",
+    "numpy",
     "randonneur>=0.6.1",
     "randonneur_data>=0.5.5",
     "scipy",
