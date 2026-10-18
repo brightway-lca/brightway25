@@ -19,6 +19,7 @@ requirements:
                 - python
                 - setuptools
         run:
+                - bw2analyzer >=0.11.1
                 - bw2calc >=2.0.1
                 - bw2data >=4.4.2
                 - bw2io >=0.9.6
@@ -30,7 +31,6 @@ requirements:
                 - matrix_utils >=0.6
                 - mrio_common_metadata >=0.2.1
                 - multifunctional >=1.0
-                - numpy <2
                 - python >=3.9
                 - randonneur >=0.6.1
                 - randonneur_data >=0.5.5
