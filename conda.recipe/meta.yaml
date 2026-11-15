@@ -29,7 +29,7 @@ requirements:
                 - ecoinvent_interface >=3.1
                 - matrix_utils >=0.6
                 - mrio_common_metadata >=0.2.1
-                - multifunctional >=1.0
+                - multifunctional >=1.1.2
                 - numpy <2
                 - python >=3.9
                 - randonneur >=0.6.1
